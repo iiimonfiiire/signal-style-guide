@@ -28,8 +28,13 @@ Signal is a style guide for UX writing, technical writing, and knowledge managem
 
 ## 4. Numerals
 
-- **Small numbers** – Spell out zero through nine as words.
+- **Small numbers** – Spell out zero through nine as words in general prose.
 - **Large numbers** – Use numerals for 10 and above.
+- **Technical values** – Use numerals regardless of magnitude for any technical or measured value.
+  - **Identifiers and addresses** – Port numbers, error and status codes, version numbers (port 8, error 4, v2).
+  - **Severity and scoring** – Severity levels, CVSS scores, priority tiers (severity 3, CVSS 7).
+  - **Steps and counts** – Step numbers referenced in prose, counts of technical objects (step 3, 5 open ports).
+  - **Units of measurement** – Duration, size, or quantity with a unit attached (3 seconds, 4 GB, 2 retries).
 
 ## 5. Voice and grammar
 
@@ -71,6 +76,7 @@ Signal is a style guide for UX writing, technical writing, and knowledge managem
 - [ ] Oxford comma used throughout, with no exceptions
 - [ ] Citations are numerical footnotes, not inline parentheticals
 - [ ] Numbers zero through nine spelled out; 10 and above as numerals
+- [ ] Technical or measured values (identifiers, severity, steps, units) stay numerals even under 10
 - [ ] No ampersands in technical writing; UX titles get a branding exception only
 - [ ] Titles and headings in sentence case, never Title Case or ALL CAPS
 - [ ] `camelCase`, `PascalCase`, and `snake_case` reserved for code identifiers only
