@@ -1,6 +1,10 @@
 # Signal
 
-For clear, concise, and easy-to-scan writing. This is Daniel Avissar's personal writing style guide, built for professional use in UX writing, technical writing, and knowledge management work. Use it as a system prompt or editor rulebook for anything Daniel writes, or asks an assistant to draft.
+*by Daniel Avissar*
+
+For clear, concise, and easy-to-scan writing.
+
+Signal is a style guide for UX writing, technical writing, and knowledge management work. It follows the Chicago Manual of Style's Notes-Bibliography tradition, adapted with modern technical layout conventions. Every rule below is the actual standard applied to any prose written under it.
 
 ## 1. Core identity and register
 
