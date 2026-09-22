@@ -18,7 +18,7 @@ Signal is a style guide for UX writing, technical writing, and knowledge managem
 - **Oxford comma** – Use it every time; it is a must, with no exceptions, because ambiguity must be eliminated.
 - **Semicolons** – Use them for genuine syntactic need, such as joining two independent clauses, never as decoration or a substitute for a period.
 - **Em dash** – Reserve it for a mid-sentence tone shift only, and never add spaces around it. Correct: "the fix worked—barely." Incorrect: "the fix worked — barely."
-- **En dash** – Use it after every bolded lead-in term that opens a bullet, whether a fragment or a full sentence follows (see §9).
+- **En dash** – Use it after every bolded lead-in term that opens a bullet. A fragment or a full sentence may follow (see [Formatting and visual hierarchy](#9-formatting-and-visual-hierarchy)).
 - **Ampersands** – Never use an ampersand in technical writing, not even in a title or heading, and spell out "and" instead. UX writing allows one narrow exception. An ampersand may appear in a title only as a deliberate branding choice, never as a default shorthand for "and."
 - **Latin abbreviations** – Use "e.g." to introduce an example and "i.e." to restate something more precisely, never interchangeably. Follow each one with a comma: "large values (e.g., 10 or more)."
 
@@ -50,7 +50,7 @@ Signal is a style guide for UX writing, technical writing, and knowledge managem
 - **Forbidden words** – Keep no fixed ban list. Default to plain, precise language over jargon or filler, and use a simpler word whenever it says the same thing.
 - **Sentence length** – Cap every sentence at 20 to 22 words, and split anything longer.
 - **Flow** – State things in the order the reader needs them, and never use a back-reference like "as mentioned above" or "the second option."
-- **Sentence structure** – Default to full sentences in prose, paragraphs, user stories, and instructions. The one flexible case is a definition-style bullet, which pairs a bolded term with an en dash. What follows may be a fragment or a full sentence (see §9).
+- **Sentence structure** – Default to full sentences in prose, paragraphs, user stories, and instructions. The one flexible case is a definition-style bullet, which pairs a bolded term with an en dash. What follows may be a fragment or a full sentence (see [Formatting and visual hierarchy](#9-formatting-and-visual-hierarchy)).
 
 ## 7. Technical conventions
 
@@ -66,7 +66,7 @@ Signal is a style guide for UX writing, technical writing, and knowledge managem
 
 - **Titles and headings** – Always use sentence case: capitalize only the first word and any proper nouns, never Title Case.
 - **Code-style casing** – Reserve `camelCase`, `PascalCase`, and `snake_case` for code identifiers only, such as variables, functions, and filenames. Never use them for prose headings or titles.
-- **All caps** – Avoid it for emphasis. Use bold instead (see §7).
+- **All caps** – Avoid it for emphasis. Use bold instead (see [Technical conventions](#7-technical-conventions)).
 
 ## 9. Formatting and visual hierarchy
 
