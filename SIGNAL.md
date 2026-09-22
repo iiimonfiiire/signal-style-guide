@@ -1,83 +1,94 @@
 # Signal
 
-For clear, concise, and easy-to-scan writing. Daniel Avissar's personal writing style guide, built for professional use in UX writing, technical writing, and knowledge management work. Use it as a system prompt or editor rulebook for any prose Daniel writes or asks an assistant to draft on his behalf.
+*by Daniel Avissar*
+
+For clear, concise, and easy-to-scan writing.
+
+Signal is a style guide for UX writing, technical writing, and knowledge management work. It follows the Chicago Manual of Style's Notes-Bibliography tradition, adapted with modern technical layout conventions. Every rule below is the actual standard applied to any prose written under it.
 
 ## 1. Core identity and register
 
-- Baseline: Chicago Manual of Style, Notes-Bibliography system, with modern technical layout sensibilities.
-- Formality: professional-polished. Formal but human; first-person voice is fine; no slang or colloquialisms.
-- Humor: none. Writing is strictly substantive — no jokes, asides, or rhetorical flourishes.
-- Directness: blunt. State the conclusion first. Name problems plainly. Minimize hedging language ("it could be argued," "perhaps," "to some extent").
+- **Baseline** – Follow the Chicago Manual of Style's Notes-Bibliography system, updated with modern technical layout sensibilities.
+- **Formality** – Keep writing professional-polished: formal but human, in first-person voice, without slang or colloquialisms.
+- **Humor** – Leave it out. Writing stays strictly substantive, with no jokes, asides, or rhetorical flourishes.
+- **Directness** – Be blunt. State the conclusion first, name problems plainly, and minimize hedging language like "it could be argued" or "perhaps."
 
 ## 2. Punctuation and syntax
 
-- Oxford (serial) comma: a must, no exceptions. Ambiguity must be eliminated.
-- Semicolons: use for genuine syntactic need (joining independent clauses) — not as decoration or a substitute for a period.
-- Em dash: only for a mid-sentence tone shift. No spaces around it (e.g., "the fix worked—barely."). Never as a general-purpose connector or aside.
-- En dash: used after a bolded lead-in term in a definition-style bullet (see §8).
-- Ampersands ("&"): never in technical writing, not even in titles or headings — spell out "and" instead. In UX writing, an ampersand may appear in a title only as a deliberate branding choice, never as a default shorthand for "and."
+- **Oxford comma** – Use it every time; it is a must, with no exceptions, because ambiguity must be eliminated.
+- **Semicolons** – Use them for genuine syntactic need, such as joining two independent clauses, never as decoration or a substitute for a period.
+- **Em dash** – Reserve it for a mid-sentence tone shift only, and never add spaces around it. Correct: "the fix worked—barely." Incorrect: "the fix worked — barely."
+- **En dash** – Use it after every bolded lead-in term that opens a bullet, whether a fragment or a full sentence follows (see §8).
+- **Ampersands** – Never use an ampersand in technical writing, not even in a title or heading, and spell out "and" instead. UX writing allows one narrow exception. An ampersand may appear in a title only as a deliberate branding choice, never as a default shorthand for "and."
 
 ## 3. Attribution and citations
 
-- Use numerical footnotes or endnotes for all sourced claims.
-- Never use intrusive inline parenthetical citations (e.g., `(Author, Year)`). The main prose must stay uninterrupted.
+- **Footnotes** – Use numerical footnotes or endnotes for every sourced claim.
+- **Inline citations** – Never use an intrusive inline parenthetical citation, such as `(Author, Year)`. Keep the main prose uninterrupted.
 
 ## 4. Numerals
 
-- Spell out zero through nine as words.
-- Use numerals for 10 and above.
+- **Small numbers** – Spell out zero through nine as words in general prose.
+- **Large numbers** – Use numerals for 10 and above.
+- **Technical values** – Use numerals regardless of magnitude for any technical or measured value.
+  - **Identifiers and addresses** – Port numbers, error and status codes, version numbers (port 8, error 4, v2).
+  - **Severity and scoring** – Severity levels, CVSS scores, priority tiers (severity 3, CVSS 7).
+  - **Steps and counts** – Step numbers referenced in prose, counts of technical objects (step 3, 5 open ports).
+  - **Units of measurement** – Duration, size, or quantity with a unit attached (3 seconds, 4 GB, 2 retries).
 
 ## 5. Voice and grammar
 
-- Active voice almost always. Use passive voice only when the actor is genuinely unknown or irrelevant to the point being made.
-- No contractions. Always expand ("do not," not "don't"; "it is," not "it's").
-- No fixed forbidden-word list. Default to plain, precise language over jargon or filler; if a simpler word says the same thing, use it.
-- Max 20–22 words per sentence. Split anything longer.
-- Forward-flowing: state things in the order the reader needs them. No back-references ("as mentioned above," "the second option").
-- Full sentences by default in prose, paragraphs, user stories, and instructions. The one exception is a definition-style bullet (see §8) — a bolded term followed by a fragment is fine there.
+- **Voice** – Use active voice almost always. Switch to passive voice only when the actor is genuinely unknown or irrelevant to the point being made.
+- **Contractions** – Avoid them; always expand instead. Write "do not," not "don't," and "it is," not "it's."
+- **Forbidden words** – Keep no fixed ban list. Default to plain, precise language over jargon or filler, and use a simpler word whenever it says the same thing.
+- **Sentence length** – Cap every sentence at 20 to 22 words, and split anything longer.
+- **Flow** – State things in the order the reader needs them, and never use a back-reference like "as mentioned above" or "the second option."
+- **Sentence structure** – Default to full sentences in prose, paragraphs, user stories, and instructions. The one flexible case is a definition-style bullet, which pairs a bolded term with an en dash. What follows may be a fragment or a full sentence (see §8).
 
 ## 6. Technical conventions
 
-- Acronyms and technical terms: spell out on first use — *unless* the audience is clearly expert or insider, in which case the acronym alone is fine.
-- Code, commands, filenames, and other literal technical identifiers: always render in monospace (backticks), with no exceptions.
-- Emphasis:
-  - **Bold** — key terms, defined concepts, or anything that must survive a scan of the page.
-  - *Italics* — used sparingly, for genuine emphasis, tone, or foreign/technical terms on first mention.
+- **Acronyms** – Spell out a technical term or acronym on first use. The one exception is a clearly expert or insider audience, where the acronym alone is fine.
+- **Monospace** – Render code, commands, filenames, and other literal technical identifiers in backticks, with no exceptions.
+- **Emphasis** – Use bold and italics deliberately, not interchangeably.
+  - **Bold** – A key term or defined concept that must survive a scan of the page.
+  - *Italics* – Reserved for rare, genuine emphasis, a tone shift, or a foreign or technical term on first mention.
 
 ## 7. Capitalization
 
-- Titles and headings: sentence case, always. Capitalize only the first word and proper nouns — never Title Case.
-- `camelCase`, `PascalCase`, and `snake_case` are code-identifier conventions only (variables, functions, filenames) — never used for prose headings or titles.
-- Avoid ALL CAPS for emphasis; use bold instead (see §6).
+- **Titles and headings** – Always use sentence case: capitalize only the first word and any proper nouns, never Title Case.
+- **Code-style casing** – Reserve `camelCase`, `PascalCase`, and `snake_case` for code identifiers only, such as variables, functions, and filenames. Never use them for prose headings or titles.
+- **All caps** – Avoid it for emphasis. Use bold instead (see §6).
 
 ## 8. Formatting and visual hierarchy
 
-- Structure: clear section headers, logical hierarchy, high scannability. Avoid dense walls of uninterrupted narrative text.
-- Lists:
-  - Numbered lists — reserved strictly for sequences or ordered steps.
-  - Bulleted lists — everything else, regardless of length.
-  - Definition-style bullets (e.g., glossary/terminology lists): bolded term, en dash, sentence fragment stating the core definition, optionally followed by a full sentence for elaboration. Example: `**Severity** – The level of seriousness of an issue. Severity is measured by...`
-- Blockquotes and callouts:
-  - Blockquotes (`>`) — direct quotations only.
-  - Callouts (`> **Note:**`, `> **Warning:**`) — asides, caveats, or warnings that need to stand apart from the main flow.
-- Tables: use only for genuinely tabular or numeric data (specs, datasets, structured comparisons of hard values). Qualitative comparisons stay in prose or bullets.
+- **Structure** – Use clear section headers and a logical hierarchy for high scannability, and avoid a dense wall of uninterrupted narrative text.
+- **Lists** – Three formats, chosen by what the content actually is.
+  - **Numbered lists** – Reserved strictly for sequences or ordered steps.
+  - **Bulleted lists** – Everything else, regardless of length.
+  - **Definition-style bullets** – A bolded lead-in term, an en dash, and the description that follows, either a fragment or a full sentence. Example: `**Severity** – The level of seriousness of an issue. Severity is measured by...`
+- **Blockquotes and callouts** – Two distinct formats, not interchangeable.
+  - **Blockquotes** (`>`) – Direct quotations only.
+  - **Callouts** (`> **Note:**`, `> **Warning:**`) – Asides, caveats, or warnings that need to stand apart from the main flow.
+- **Tables** – Use them only for genuinely tabular or numeric data, such as specs, datasets, or structured comparisons of hard values. Qualitative comparisons stay in prose or in bullets.
 
 ## 9. Quick-reference checklist
 
-- [ ] Oxford comma used throughout — no exceptions
+- [ ] Oxford comma used throughout, with no exceptions
 - [ ] Citations are numerical footnotes, not inline parentheticals
-- [ ] Numbers zero–nine spelled out; 10+ as numerals
+- [ ] Numbers zero through nine spelled out; 10 and above as numerals
+- [ ] Technical or measured values (identifiers, severity, steps, units) stay numerals even under 10
 - [ ] No ampersands in technical writing; UX titles get a branding exception only
 - [ ] Titles and headings in sentence case, never Title Case or ALL CAPS
-- [ ] `camelCase`/`PascalCase`/`snake_case` reserved for code identifiers only
+- [ ] `camelCase`, `PascalCase`, and `snake_case` reserved for code identifiers only
 - [ ] Active voice, except where the actor is genuinely unknown
 - [ ] No contractions
-- [ ] Sentences ≤ 20–22 words; forward-flowing, no back-references
+- [ ] Sentences at 20 to 22 words or fewer; forward-flowing, with no back-references
 - [ ] Full sentences by default; fragments only in definition-style bullets
+- [ ] Bold lead-in bullets use an en dash, never a period, before the content
 - [ ] Acronyms spelled out on first use for non-expert audiences
-- [ ] All code/commands/filenames in monospace
+- [ ] All code, commands, and filenames in monospace
 - [ ] Bold for key terms; italics used sparingly
 - [ ] Numbered lists only for sequences; bullets otherwise
-- [ ] Blockquotes for quotes; callouts for asides/warnings
-- [ ] Tables only for genuinely tabular/numeric data
+- [ ] Blockquotes for quotes; callouts for asides and warnings
+- [ ] Tables only for genuinely tabular or numeric data
 - [ ] No humor; conclusion-first, blunt directness
