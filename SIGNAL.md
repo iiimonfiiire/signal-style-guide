@@ -1,15 +1,24 @@
 <div align="center">
   <img src="./assets/signal-icon-5c.svg" width="120" alt="Signal Style Logo" />
-  <h1>THE SIGNAL MANUAL OF STYLE</h1>
-  <p><i>A Guide for Precision, Tone, and Structure</i></p>
-  <hr width="30%"/>
-</div>
 
-# Signal
 
-*by Daniel Avissar*
+# The Signal Manual of Style
 
 For clear, concise, and easy-to-scan writing.
+
+<table>
+  <tr>
+    <td><strong>Author</strong></td>
+    <td>Daniel Avissar</td>
+  </tr>
+  <tr>
+    <td><strong>Last revision</strong></td>
+    <td>23 Sep 2026</td>
+  </tr>
+</table>
+
+---
+</div>
 
 Signal is a style guide for UX writing, technical writing, and knowledge management work. It follows the Chicago Manual of Style's Notes-Bibliography tradition, adapted with modern technical layout conventions. Every rule below is the actual standard applied to any prose written under it.
 
