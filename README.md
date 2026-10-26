@@ -1,6 +1,6 @@
 # Signal
 
-*by Daniel Avissar*
+*by [Daniel Avissar](https://iiimonfiiire.github.io/daniel-avissar-portfolio/)*
 
 For clear, concise, and easy-to-scan writing.
 
@@ -14,7 +14,9 @@ The file [`signal.rules.toml`](./signal.rules.toml) is the machine-readable comp
 - **Judgment rules** – A rule without a `check` needs a person or a model to apply it.
 - **Per-type changes** – A `by_type` table changes a rule for one document type, such as the 12-word cap for UX microcopy.
 
-The PAKT documentation toolkit reads this pack, together with SIGNAL.md, to review and audit docs against Signal. SIGNAL.md stays the source of truth. The pack only points into it.
+The [PAKT documentation toolkit](https://github.com/iiimonfiiire/pakt) reads this pack, together with SIGNAL.md, to review and audit docs against Signal. SIGNAL.md stays the source of truth. The pack only points into it.
+
+For a short overview of how Signal and PAKT work together, see [Style as code: Signal and PAKT](https://iiimonfiiire.github.io/daniel-avissar-portfolio/what-i-do/style-as-code/).
 
 ## Contributing
 
