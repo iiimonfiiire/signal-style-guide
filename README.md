@@ -6,6 +6,10 @@ For clear, concise, and easy-to-scan writing.
 
 A style guide for UX writing, technical writing, and knowledge management work. See [SIGNAL.md](./SIGNAL.md) for the full guide.
 
+## Voice profile
+
+The file [VOICE.md](./VOICE.md) describes the author's own voice on top of Signal: signature moves, cadence, and diction, with exemplars. It sets three registers and says whether Signal or the voice wins in each one.
+
 ## Rules pack
 
 The file [`signal.rules.toml`](./signal.rules.toml) is the machine-readable companion to SIGNAL.md. It lists every rule with an ID, a severity, a one-line summary, and the SIGNAL.md section it comes from. It also holds the structural requirements for each document type in section 10.
