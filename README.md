@@ -6,6 +6,8 @@ For clear, concise, and easy-to-scan writing.
 
 A style guide for UX writing, technical writing, and knowledge management work. See [SIGNAL.md](./SIGNAL.md) for the full guide.
 
+Signal aims to lower cognitive load. Predictable structure, short paragraphs, and steps that name their result help a reader who is busy, stressed, or tired. Calm wording and error messages that never blame the reader serve the same goal. These rules help every reader, including neurodivergent readers.
+
 ## Rules pack
 
 The file [`signal.rules.toml`](./signal.rules.toml) is the machine-readable companion to SIGNAL.md. It lists every rule with an ID, a severity, a one-line summary, and the SIGNAL.md section it comes from. It also holds the structural requirements for each document type in section 10.
