@@ -25,3 +25,7 @@ When you change SIGNAL.md, update `signal.rules.toml` in the same pull request:
 1. Add, change, or remove the rules that the edit affects. Cite the section heading or bold lead-in exactly as SIGNAL.md writes it.
 2. Set `version` in the `[guide]` table to the new "Last revision" date, in `YYYY-MM-DD` form.
 3. Run `python scripts/check_rules_pack.py`. The same check runs in CI on every pull request. It fails on a citation to a missing section, or on a version that differs from the revision date.
+
+## License
+
+Signal is released under the [MIT License](./LICENSE).
