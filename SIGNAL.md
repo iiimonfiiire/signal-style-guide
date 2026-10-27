@@ -7,7 +7,7 @@
 *For clear, concise, and easy-to-scan writing.*
 
 * **Author:** Daniel Avissar
-* **Last revision:** 6 Oct 2026
+* **Last revision:** 27 Oct 2026
 ---
 
 Signal is a style guide for UX writing, technical writing, and knowledge management work. It follows the Chicago Manual of Style's Notes-Bibliography tradition, adapted with modern technical layout conventions. Every rule below is the actual standard applied to any prose written under it.
@@ -21,6 +21,7 @@ Signal is a style guide for UX writing, technical writing, and knowledge managem
   - **Second person** ("you") – Required, with imperative verbs, in all instructional, procedural, technical, and knowledge management documents. This covers KB guides, API docs, conceptual articles, and UI copy. First-person pronouns ("we," "our," "I") are forbidden in these documents.
 - **Humor** – Leave it out. Writing stays strictly substantive, with no jokes, asides, or rhetorical flourishes.
 - **Directness** – Be blunt. State the conclusion first, name problems plainly, and minimize hedging language like "it could be argued" or "perhaps."
+- **Cognitive load** – Write for a reader who is busy, stressed, or tired. Predictable structure, short blocks, and calm wording lower the effort of reading for everyone, including neurodivergent readers.
 
 ## 2. Punctuation and syntax
 
@@ -61,7 +62,10 @@ Signal is a style guide for UX writing, technical writing, and knowledge managem
 - **Contractions** – Avoid them; always expand instead. Write "do not," not "don't," and "it is," not "it's."
   - **Long-form prose** – The ban applies fully to long-form documentation, KB articles, API specs, and release notes.
   - **UX microcopy exception** – Contractions are allowed in UI microcopy only: buttons, tooltips, toast notifications, error messages, modals, and empty states. They keep the interface natural and low-friction.
-- **Forbidden words** – Keep no fixed ban list. Default to plain, precise language over jargon or filler, and use a simpler word whenever it says the same thing.
+- **Forbidden words** – Keep no fixed ban list beyond urgency language (see Calm tone). Default to plain, precise language over jargon or filler, and use a simpler word whenever it says the same thing.
+- **Calm tone** – State risk plainly, without artificial urgency. Avoid pressure words such as "immediately," "urgent," "catastrophic," and "disastrous."
+  - **Directness, not alarm** – Blunt writing names the problem and the fix. It never raises the stakes to push the reader.
+  - **Facts are not urgency** – A real deadline or a severity tier, such as Critical, is a fact. State it as one.
 - **Sentence length** – Cap sentence length by content type, and split anything longer. Convert complex logical dependencies that exceed a cap into a bulleted list or a table.
   - **UX microcopy** – 12 words maximum per string or sentence.
   - **Instructional steps and procedures** – 20 words maximum.
@@ -90,6 +94,7 @@ Signal is a style guide for UX writing, technical writing, and knowledge managem
 ## 9. Formatting and visual hierarchy
 
 - **Structure** – Use clear section headers and a logical hierarchy for high scannability, and avoid a dense wall of uninterrupted narrative text.
+- **Paragraph length** – Cap prose paragraphs at four sentences. Split a longer paragraph, or turn its content into a list.
 - **Lists** – Three formats, chosen by what the content actually is.
   - **Numbered lists** – Reserved strictly for sequences or ordered steps.
   - **Bulleted lists** – Everything else, regardless of length.
@@ -97,6 +102,7 @@ Signal is a style guide for UX writing, technical writing, and knowledge managem
 - **Blockquotes and callouts** – Two distinct formats, not interchangeable.
   - **Blockquotes** (`>`) – Direct quotations only.
   - **Callouts** (`> **Note:**`, `> **Warning:**`) – Asides, caveats, or warnings that need to stand apart from the main flow.
+  - **Warnings** – Reserve `> **Warning:**` for actions that delete data, break an integration, or cannot be undone. State the risk, then the recovery step or the safe alternative.
 - **Tables** – Use them only for genuinely tabular or numeric data, such as specs, datasets, or structured comparisons of hard values. Qualitative comparisons stay in prose or in bullets.
 - **Hyperlinks** – Write descriptive link text that names the destination, and paraphrase freely to fit the sentence. Never use generic text like "click here."
 
@@ -108,6 +114,7 @@ Each document type below adds structure on top of the general rules. Where a rul
 
 - **Task-based guides** – Goal or summary, prerequisites, procedure, and verification, in that order.
 - **Conceptual articles** – Summary, core concepts, architecture or diagram, and related tasks, in that order.
+- **Step outcomes** – When a procedural step changes what the reader sees, state the result in the same step: "Click **Save**. The status changes to **Active**." The reader confirms each step before moving on.
 
 ### Troubleshooting guides
 
@@ -134,6 +141,7 @@ Each document type below adds structure on top of the general rules. Where a rul
 
 - **Casing** – Follow the UI text rule (see [Capitalization](#8-capitalization)).
 - **Error messages** – Use a compact two-part structure: what happened, then an actionable next step. Leave out the "why" to keep notifications short. Example: "Couldn't save your file. Check your connection and try again."
+- **Error tone** – Make the system or the object the subject of an error, never the reader. Write "Couldn't verify the API key. Check the key and try again," not "You entered an invalid key."
 
 ### API documentation
 
@@ -190,6 +198,7 @@ Each document type below adds structure on top of the general rules. Where a rul
 - [ ] No contractions, except in UI microcopy
 - [ ] Sentence caps met: 12 words for microcopy, 20 for procedures, 28 for conceptual overviews
 - [ ] Forward-flowing, with no back-references
+- [ ] Calm tone, with no artificial urgency or pressure words
 - [ ] Full sentences by default; fragments only in definition-style bullets
 - [ ] Bold lead-in bullets use an en dash, never a period, before the content
 - [ ] Acronyms spelled out on first use for non-expert audiences
@@ -198,7 +207,11 @@ Each document type below adds structure on top of the general rules. Where a rul
 - [ ] Security identifiers in full canonical form (CVE ID, versioned CVSS score, capitalized severity tier)
 - [ ] Bold for key terms; italics used sparingly
 - [ ] Numbered lists only for sequences; bullets otherwise
+- [ ] Prose paragraphs capped at four sentences
 - [ ] Blockquotes for quotes; callouts for asides and warnings
+- [ ] Warning callouts only for destructive or irreversible actions, each with a recovery step
+- [ ] Procedural steps state their visible outcome
+- [ ] Error messages make the system the subject, never the reader
 - [ ] Tables only for genuinely tabular or numeric data
 - [ ] Hyperlink text is descriptive, never "click here"
 - [ ] Document type structure followed (see [Document types](#10-document-types))
