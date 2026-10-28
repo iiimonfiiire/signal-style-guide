@@ -1,6 +1,6 @@
 # Signal
 
-*by [Daniel Avissar](https://iiimonfiiire.github.io/daniel-avissar-portfolio/)*
+*by [Daniel Avissar](https://iiimonfiiire.github.io/daniel-avissar-portfolio/?utm_source=github&utm_campaign=signal-readme)*
 
 For clear, concise, and easy-to-scan writing.
 
@@ -18,7 +18,7 @@ The file [`signal.rules.toml`](./signal.rules.toml) is the machine-readable comp
 
 The [PAKT documentation toolkit](https://github.com/iiimonfiiire/pakt) reads this pack, together with SIGNAL.md, to review and audit docs against Signal. SIGNAL.md stays the source of truth. The pack only points into it.
 
-For a short overview of how Signal and PAKT work together, see [Style as code: Signal and PAKT](https://iiimonfiiire.github.io/daniel-avissar-portfolio/what-i-do/style-as-code/).
+For a short overview of how Signal and PAKT work together, see [Style as code: Signal and PAKT](https://iiimonfiiire.github.io/daniel-avissar-portfolio/what-i-do/style-as-code/?utm_source=github&utm_campaign=signal-readme).
 
 ## Contributing
 
